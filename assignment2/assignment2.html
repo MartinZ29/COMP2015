@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>COMP 2015 – Lab 3</title>
+	<script defer src="assignment2.js"></script>
+	<style>
+		html, body { height: 100%; }
+		
+		body {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		span {
+			font-size: 2em;
+		}
+		span:hover {
+			cursor: pointer;
+		}
+		#prev {
+			margin-right: 1em;
+		}
+		#start, #stop {
+			font-size: 1em;
+			padding: 5px 10px;
+			background: white;
+			border-radius: 5px;
+			outline: none;
+		}
+		#start:hover, #stop:hover {
+			cursor: pointer;
+			background: black;
+			color: white;
+		}
+		#start {
+			margin-right: 1em;
+		}
+	</style>
+</head>
+<body>
+	<div class="slides">
+		<img src="slide0.jpg" />
+	</div>
+	<p>
+		<button id="start">Start</button>
+		<button id="stop">Stop</button>
+	</p>
+</body>
+</html>
